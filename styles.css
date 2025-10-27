@@ -1,0 +1,291 @@
+h1, h2, h3, h4, h5, h6, .title, .navbar-brand {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+}
+
+body, p, span, a, li, button, input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: none; 
+  color: #1A1A1A; 
+  text-shadow: 0 0 10px #00F6FF, 0 0 20px #00F6FF, 0 0 30px #00F6FF ;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #D100C3, #8F2BFF);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.bi {
+  color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-brand {
+  text-shadow: 0 0 10px #00F6FF, 0 0 20px #00F6FF, 0 0 30px #00F6FF ;
+}
+
+.title {
+  text-shadow:  0 0 18px #00F6FF, 0 0 20px #00F6FF, 0 0 30px #00F6FF;
+}
+
+.in {
+  margin: 0;
+  background-image: url(Gemini_Generated_Image_r3ti6yr3ti6yr3ti.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lead {
+  text-shadow: 0 0 8px #00F6FF, 0 0 12px #00F6FF, 0 0 20px #00F6FF;
+}
+
+.neon-orange {
+  color: #FF8A00;
+  text-shadow: 0 0 10px #FF8A00, 0 0 20px #FF8A00, 0 0 30px #FF8A00;
+}
+
+.neon-green {
+  color: #9EFF2E;
+  text-shadow: 0 0 10px #9EFF2E, 0 0 20px #9EFF2E, 0 0 30px #9EFF2E;
+}
+
+.neon-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #D100C3;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 
+    0 0 10px #00F6FF,
+    0 0 20px #00F6FF,
+    0 0 40px #00F6FF,
+    inset 0 0 10px #00F6FF;
+  transition: all 0.3s ease;
+}
+
+
+.neon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 0 20px #00E0FF,
+    0 0 40px #00E0FF,
+    0 0 80px #00E0FF,
+    inset 0 0 20px #00E0FF;
+}
+
+
+.neon-card h3 {
+  color: #fff;
+  text-shadow: 0 0 10px #F5F5F5, 0 0 20px #F5F5F5;
+  margin-bottom: 1rem;
+}
+
+.neon-card p {
+  color: #F5F5F5;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .neon-box {
+    padding: 1.5rem;
+  }
+  .neon-box h3 {
+    font-size: 1.3rem;
+  }
+  .neon-box p {
+    font-size: 0.95rem;
+  }
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #6495ED, #2929FF);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background: linear-gradient(90deg, #ffc107, #ffeb3b);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 193, 7, 0.5);
+}
+
+.au {
+  color: #FF8A00;
+}
+.au-1 {
+  color: #8F2BFF;
+}
+
+.ft {
+  color: white;
+  background-color: #6495ED;
+}
+
+.btn-led {
+  display: inline-block;
+  padding: 15px 40px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 40px;
+  text-decoration: none;
+  background: linear-gradient(270deg, red, yellow, lime, cyan, blue, violet);
+  background-size: 600% 600%;
+  animation: ledMove 5s linear infinite;
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  transition: transform 0.2s;
+}
+
+.btn-led:hover {
+  transform: scale(1.05);
+}
+
+@keyframes ledMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card-body .card-text {
+  color: #F5F5F5;
+  text-shadow: 0 0 10px #F5F5F5, 0 0 20px #F5F5F5;
+}
+ .ET {
+  margin: 0;
+  background-image: url(Gemini_Generated_Image_6ehco46ehco46ehc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .card {
+  height: 100%;
+  min-height: 250px; /* asegura que todas tengan la misma altura */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-shadow: 0 0 10px #00F6FF, 0 0 30px #00F6FF, 0 0 40px #00F6FF ;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+ .sf {
+   margin: 0;
+  background-image: url(Gemini_Generated_Image_n1fo6fn1fo6fn1fo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .se, p{
+  text-shadow: 0 0 10px #00F6FF, 0 0 30px #00F6FF, 0 0 40px #00F6FF ;
+ }
+
+ .neon .neon-1 {
+  text-shadow: 0 0 10px #00F6FF, 0 0 30px #00F6FF, 0 0 40px #00F6FF ;
+ }
+
+footer {
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Popins, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f1c40f;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin: 8px 0;
+  color: #333333;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+  }
+
+  .footer-section h4 {
+    color: #1A1A1A;
+  }
+}
